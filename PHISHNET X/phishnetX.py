@@ -34,8 +34,8 @@ class PhishNetXInternational:
         self.session.verify = True
         
         # API Keys
-        self.virustotal_api_key = "6a1bb536e05a2385da5b1da68962e7c9d90b5cb278e372965c2e2b64f70604c6"
-        self.whois_api_key = "Zlx3KliMIXYS0j6RCfZuKJpQaGEidQCz"
+        self.virustotal_api_key = "YOUR-VIRUS-TOTAL-API-KEY"
+        self.whois_api_key = "YOUR-WHO-IS-API-KEY"
 
         # Security Engine Initialization
         self.detection_rules = self.load_detection_rules()
